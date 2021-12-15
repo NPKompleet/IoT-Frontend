@@ -1,0 +1,9 @@
+.switchcanvas {
+  width: 100%;
+  position: absolute;
+}
+
+.switch {
+  width: 100%;
+  position: relative;
+}

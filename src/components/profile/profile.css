@@ -1,0 +1,26 @@
+#profileimage {
+  width: 120px;
+  height: 120px;
+}
+
+#header-grid {
+  width: 500px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.header-span {
+  width: 200px;
+  display: inline-block;
+}
+
+.header-input {
+  width: 200px;
+  height: 40px;
+}
+
+.header-remove {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

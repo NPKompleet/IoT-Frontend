@@ -1,0 +1,9 @@
+.shuttercanvas {
+  width: 100%;
+  position: absolute;
+}
+
+.shutter {
+  width: 100%;
+  position: relative;
+}

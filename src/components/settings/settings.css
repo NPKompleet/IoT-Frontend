@@ -1,0 +1,18 @@
+.tabsContainer {
+  min-width: 250px;
+}
+
+.tab {
+  height: 40px;
+}
+
+.contentsContainer {
+  min-height: 450px;
+  max-width: 650px;
+}
+
+.settingsGrid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  row-gap: 20px;
+}

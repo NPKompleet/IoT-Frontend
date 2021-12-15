@@ -1,0 +1,93 @@
+.treecontainer {
+  height: 100%;
+  background-size: 25px 25px;
+  background-image: linear-gradient(to right, #eee 1px, transparent 1px),
+    linear-gradient(to bottom, #eee 1px, transparent 1px);
+}
+
+.tree,
+.tree ul,
+.tree li {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.tree li {
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+.stem {
+  padding: 0 0 0 8px;
+  font-size: 24px;
+}
+
+.tree ul {
+  list-style: none;
+  padding-left: 38px;
+}
+
+.tree input,
+.tree .property {
+  height: 40px;
+  width: 150px;
+}
+
+.tree .operator {
+  border-radius: 15px;
+}
+
+.tree .combine {
+  width: 55px;
+  height: 45px;
+  text-align: center;
+}
+
+.tree li::before,
+.tree li::after {
+  content: '';
+  position: absolute;
+  left: -14px;
+}
+
+.tree li::before {
+  border-top: 3px solid #000;
+  top: 10px;
+  width: 20px;
+  height: 0;
+}
+
+.tree li::after {
+  border-left: 4px solid #000;
+  height: 100%;
+  width: 0px;
+  top: 2px;
+}
+
+.tree ul > li:last-child::after {
+  height: 8px;
+}
+
+.tree ul > li:last-child {
+  padding-bottom: 0;
+}
+
+.tree .decision {
+  width: 100px;
+  height: 30px;
+}
+
+.treeaction:hover {
+  cursor: pointer;
+}
+
+.main-buttons {
+  right: 20px;
+  top: 20px;
+}
+
+#rootNode {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
